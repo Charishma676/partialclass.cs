@@ -16,9 +16,11 @@ namespace partialclass.cs
             //mul.PlayVideo();
             //Console.ReadLine();
 
-            Television tv = new Television();
-            tv.TurnOn();
-            tv.TurnOff();
+            //Television tv = new Television();
+            //tv.TurnOn();
+            //tv.TurnOff();
+            employee e = new employee(1, "abc", "hhg");
+            e.edisplay();
         }
     }
 }
